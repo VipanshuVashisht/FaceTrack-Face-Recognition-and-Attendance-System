@@ -10,7 +10,6 @@ This is a Flask-based web application for managing attendance using face recogni
 
 ## Features
 - **Face Detection and Recognition:** Uses OpenCV and a KNN model for recognizing faces.
-- **Signature Verification:** Compares signatures using SSIM to verify identities.
 - **Attendance Management:** Records attendance data in CSV files.
 - **Web Interface:** User-friendly interface for adding users, listing users, and viewing attendance.
 
@@ -70,12 +69,6 @@ The application should now be running on `http://localhost:5000`.
 1. Go to the home page.
 2. Click on the "Take Attendance" button.
 3. The system will use the webcam to recognize faces and mark attendance.
-
-### Verifying Signatures
-1. Go to the "Verify Signature" page.
-2. Enter the user's name.
-3. Upload a signature to verify.
-4. The system will compare the uploaded signature with the reference signature and display the result.
 
 ## Technologies Used
 - **Python:** Programming language.
